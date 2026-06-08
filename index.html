@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subhadra Hospitals BMI Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🏥 SUBHADRA HOSPITALS</h1>
+      <p>Your Health, Our Priority</p>
+    </header>
+
+    <div class="main-container">
+      <section class="welcome">
+        <h2>Welcome to Subhadra Hospitals</h2>
+
+        <div class="features">
+          <div class="feature">🏥 Advanced Care</div>
+
+          <div class="feature">👨‍⚕️ Expert Doctors</div>
+
+          <div class="feature">❤️ Trusted Service</div>
+        </div>
+
+        <img src="images/hospital.png" alt="Hospital Image" />
+
+        <p class="tagline">🏥 Healing Hands. Caring Hearts. Healthier Lives.</p>
+
+        <p>
+          Subhadra Hospitals is committed to providing quality healthcare
+          through advanced medical technology, experienced specialists, and
+          compassionate patient care.<br />
+          Use our BMI Calculator to assess your health status and take the first
+          step toward a healthier lifestyle.
+        </p>
+      </section>
+
+      <section class="bmi-card">
+        <h2>Body Mass Index (BMI) Calculator</h2>
+
+        <label>Patient Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+
+        <label>Age</label>
+        <input type="number" id="age" placeholder="Enter age" />
+
+        <label>Height (cm)</label>
+        <input type="number" id="height" placeholder="Enter height" />
+
+        <label>Weight (kg)</label>
+        <input type="number" id="weight" placeholder="Enter weight" />
+
+        <button id="calculate-btn">Calculate BMI</button>
+
+        <button id="reset-btn">Reset</button>
+
+        <div class="result-box">
+          <h3>BMI Result</h3>
+
+          <p id="bmi-value">--</p>
+
+          <p id="bmi-status">Health Status</p>
+
+          <p id="bmi-advice">Recommendation will appear here.</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

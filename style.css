@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background: linear-gradient(135deg,#dbeafe,#e0f2fe,#f0f9ff);
+    text-align:center;
+    padding:20px;
+    min-height:100vh;
+}
+
+header{
+    background: #0077b6;
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.welcome{
+    max-width: 500px;
+    text-align: left;
+}
+
+.bmi-card{
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.bmi-card input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.bmi-card button{
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.bmi-card button:first-of-type{
+    background-color: #0077b6;
+    color: white;
+}
+
+.bmi-card button:last-of-type{
+    background-color: #dc3545;
+    color: white;
+}
+
+.bmi-card{
+    width: 450px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+.main-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    margin-top:15px;
+    flex-wrap:wrap;
+}
+
+.welcome img{
+    width: 100%;
+    max-width: 550px;
+    border-radius: 20px;
+    margin: 15px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.tagline{
+    font-size: 22px;
+    font-weight: bold;
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+.bmi-card h2{
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.bmi-card button:hover{
+    transform: scale(1.05);
+}
+
+.bmi-card label{
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.result-box{
+    margin-top:20px;
+    padding:18px;
+    background:#f8fbff;
+    border-left:5px solid #0077b6;
+    border-radius:12px;
+    text-align:left;
+}
+
+#bmi-value{
+    font-size:38px;
+    font-weight:700;
+    color:#0077b6;
+}
+
+#bmi-status{
+    font-size:20px;
+    font-weight:600;
+    margin-top:10px;
+}
+
+#bmi-advice{
+    margin-top:12px;
+    line-height:1.6;
+    font-size:15px;
+    font-weight:500;
+}
+
+.features{
+    margin-top: 20px;
+}
+.feature{
+    background:white;
+    padding:6px 10px;
+    margin:4px 0;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.tagline{
+    font-size:20px;
+    font-weight:600;
+    color:#0077b6;
+    margin-bottom:10px;
+}
